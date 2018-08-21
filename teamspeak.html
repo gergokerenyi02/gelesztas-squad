@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @font-face { font-family: BebasNeue Regular; src: url('BebasNeue Regular.otf'); }
+  </style>
+<!--Loading sources...-->
+<title>Gelesztas HUB - Home</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<!--Loading sources...-->
+
+</head>
+<body>
+
+<div class="navbar-top">
+<ul>
+  <h1 class="navbartitle">Gelesztas Hub</h1>
+  <img style="width:8%; padding-top: 0.5%; padding-right: 1%;" src="logo.png">
+  <li><a href="shop.html">Shop</li></a>
+  <li><a href="about.html">About</li></a>
+  <li><a class="current" href="teamspeak.html">TS3 Server</li></a>
+  <li><a href="index.html">Home</li></a>
+  <li class="language-selector"><select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" class="selectpicker" data-width="fit">
+    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+  	<option value="file:///Users/gergokerenyi02/Documents/First%20website%20project%20(Bootstrap)/bootstrap-4.1.3-dist/about.html"><span class="flag-icon flag-icon-mx"></span>Hungary</option>
+	<option value="file:///Users/gergokerenyi02/Documents/First%20website%20project%20(Bootstrap)/bootstrap-4.1.3-dist/about.html"><span class="flag-icon flag-icon-mx"></span>Deutsch</option>
+	</select>
+</ul>
+</div>
+
+
+<div class="banner">
+  <div class="jumbotron">
+    <div class="container">
+          <h1 class="maintitle">Teasmspeak 3 Server</h1>
+
+          <p class="paragraph-teamspeak">On this page, you can see the current status of the server and the  people, who are online. We rent the server from a hosting provider called <a href="https://ugyfelkapu.hostingbazis.hu/index.php">HostingBazis</a>. They provide us a fast safe and a stable server. If you want to join click to the Connect button.</p>
+          <p><a class="btn btn-primary btn-lg" href="ts3server://ts3.hostingbazis.hu:5034" role="button">Connect »</a></p>
+    </div>
+  </div>
+</div>
+<div class="teamspeak-server-status">
+<span id="its219983"><a href="https://www.teamspeak3.com/">teamspeak</a> Loading...</span><script type="text/javascript" src="https://view.light-speed.com/teamspeak3.php?IP=ts3.hostingbazis.hu&PORT=5034&QUERY=10012&UID=219983&display=block&font=11px&background=%23212121&server_info_background=transparent&server_info_text=%23ffffff&server_name_background=transparent&server_name_text=%23ffffff&info_background=transparent&channel_background=transparent&channel_text=%23ffffff&username_background=transparent&username_text=%23ffffff"></script>
+</div>
+
+</body>

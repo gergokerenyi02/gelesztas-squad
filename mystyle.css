@@ -1,0 +1,294 @@
+/*Scroll: enable*/
+html {
+	position: static;
+}
+/*Scroll: enable*/
+
+
+
+/* NAVBAR CUSTOMIZATION STARTS*/	
+
+
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.language-selector {
+	margin-top: 20px;
+}
+
+a.current {
+	background-color: rgba(211, 211, 211, 0.25);
+}
+a:hover {
+	background-color: rgba(211, 211, 211, 0.71);
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4d4d4d;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 16.5px;
+
+}
+li {
+	float: right;
+	font-family: 'Arial', serif;
+	padding-right: 30px;
+	font-size: 18px;
+}
+li a {
+	display: block;
+	text-align: center;
+	padding: 22px 16px;
+	font-family: Avenir;
+}
+h1 {
+	
+	text-align: center;
+	font-size: 4rem;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+p {
+	text-align: right;
+	padding-right: 30%;
+	font-size: 180%;
+	padding-bottom: 20px;
+
+}
+.navbartitle {
+	float: left;
+	margin: 0px;
+	padding: 15px;
+	padding-left: 25px;
+	color: white;
+	font-family: BebasNeue Regular;
+	text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+	overflow: hidden;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 40px;
+	display: block;
+	padding-bottom: 0px;
+	text-align: center;
+
+}
+/* NAVBAR CUSTOMIZATION ENDS*/
+
+/* TEXT CUSTOMIZATION STARTS*/
+
+}
+
+.container {
+	line-height: 24px; 
+	margin-left: 50.5px;
+	margin-right: 50.5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+	width: 100%;
+}
+
+p {
+	margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin-bottom: 10px;
+	color: #F5F5F5;
+
+}
+
+.maintitle {
+    font-size: 4.5rem;
+    font-weight: 300;
+ 	display: block;
+ 	margin-bottom: 8px;
+ 	text-align: left;
+ 	margin-top: 0px;
+    line-height: 1.2;
+    color: #FFFAFA;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.jumbotron {
+	background-image: url(1.jpg);
+	margin-bottom: 0px;
+}
+
+h2 {
+	float: left;
+	font-size: 45px;
+	padding-left: 183px;
+	padding-right: 65px;
+	margin: 0px;
+
+}
+
+
+button {
+	margin-top: 15px;
+}
+/* TEXT CUSTOMIZATION ENDS*/
+
+/*CENTERING*/
+.webadmin-center {
+	width:calc(100% - 15px);
+	padding:50px 5px;
+	text-align:center
+}
+.site-title {
+	height: 30px;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: left;
+	padding: 10px
+}
+
+.webadmin-features-box {
+	width:30%;
+	margin:10px 5px;
+	float:none;
+	display:inline-block
+}
+
+.webadmin-features {
+	width:calc(100% - 30px);
+	padding:15px;
+	overflow:hidden
+}
+	
+.webadmin-features-info {
+	opacity:1;color:#0f1113
+}
+.webadmin-features:hover .webadmin-features-image {
+	font-size:30px
+}
+.webadmin-features-title {
+	text-align:left;width:calc(100% - 40px)
+}
+.webadmin-features-info {
+	text-align:left;width:calc(100% - 40px)
+}
+/*.webadmin-features:hover{background:#0096ff;color:#0f1113;padding:15px;margin:0}*/
+/*CENTERING*/
+
+/* Teamspeak 3 Page Customization */
+
+.paragraph-teamspeak {
+	font-size: 17px;
+}
+
+teamspeak-server-status {
+	margin-top: 0px;
+}
+
+/* Teamspeak 3 Page Customization */
+
+/* About Page Customization */
+
+.largebox {
+	width: 100%;
+	height: 400px;
+	padding-top: 3%;
+	padding-left: 10%;
+}
+
+.box1 { 
+	width: 26%;
+	height: 85%;
+	float: left;
+}
+
+
+
+.box2 { 
+	width: 26%;
+	height: 85%;
+	float: left;
+	margin-left: 3%;
+}
+
+.box3 { 
+	width: 26%;
+	height: 85%;
+	float: right;
+	margin-right: 15%;
+
+}
+
+.box-title {
+	word-wrap: break-word;
+}
+
+.box-paragraph p {
+	color: black;
+	width: 100%;
+	margin-left: 10%;
+	word-wrap: break-word;
+}
+
+@media (max-width: 600px){
+  .box1 .box2 .box3 {
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+}
+
+.language-picker {
+	background-color: none;
+}
+
+/* About Page Customization */
+
+/*Shop*/
+
+*{
+	box-sizing: border-box;
+  }
+  
+  .itemlist1 {
+	display: flex;
+	flex-wrap: wrap;
+	  height: 400px;
+	  max-width: 90%;
+	  background-color: transparent;
+	  padding-top: 3%;
+	  padding-left: 20%;
+	  padding-right: 5%;
+  }
+  
+  .item-picture {
+	width: 80%;
+	height: 100%;
+  }
+
+  .item {
+	margin: 0 2% 0 0; 
+	height: 70%;
+	width: 31.3%;
+  }
+  .box:last-child{
+	margin: 0;
+  }
+  
+  
+  @media (max-width: 600px){
+	.box{
+	  margin: 0 0 20px 0;
+	  width: 100%;
+	}
+  }
+
+.shop {
+	margin-left: 32%;
+}
